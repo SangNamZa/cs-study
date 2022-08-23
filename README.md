@@ -46,5 +46,11 @@
   * CSS Methodology
   * Normalize.css vs reset.css
   
+## 진행사항
+| 주제 | 날짜 | 담당자 | 비고 |
+|---|---|---|---|
+| Git & GitHub | 2022.08.23 | 한석현 |  |
+|  | 2022.08.23 | 김민준 |  |
+
 ## 참고
 * https://github.com/JaeYeopHan/Interview_Question_for_Beginner#그-외-좋은-자료
