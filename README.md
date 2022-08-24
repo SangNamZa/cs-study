@@ -8,7 +8,7 @@
 
 - 개발상식
   - RESTful API
-  - Git & GitHub
+  - [Git & GitHub](HanSeokhyeon/git-github.md)
 - 자료구조
   - Array vs Linked List
   - Stack and Queue
@@ -53,7 +53,7 @@
 
 | 주제                                           | 날짜       | 담당자 | 비고 |
 | ---------------------------------------------- | ---------- | ------ | ---- |
-| Git & GitHub                                   | 2022.08.23 | 한석현 |      |
+| [Git & GitHub](HanSeokhyeon/git-github.md)     | 2022.08.23 | 한석현 |      |
 | 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링 | 2022.08.23 | 김민준 |      |
 
 ## 참고
