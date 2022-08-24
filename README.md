@@ -5,7 +5,7 @@
 ## 공부 주제
 * 개발상식
   * RESTful API
-  * Git & GitHub
+  * [Git & GitHub](HanSeokhyeon/git-github.md)
 * 자료구조
   * Array vs Linked List
   * Stack and Queue
