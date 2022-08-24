@@ -50,8 +50,6 @@
   - CSS Methodology
   - Normalize.css vs reset.css
 
-  testing
-
 ## 진행사항
 
 | 주제                                           | 날짜       | 담당자 | 비고 |
