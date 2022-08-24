@@ -40,6 +40,7 @@
   - Promise
   - Arrow Function
 - FrontEnd
+
   - 브라우저의 동작원리
   - Document Object Model
   - CORS
@@ -48,6 +49,8 @@
   - 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링
   - CSS Methodology
   - Normalize.css vs reset.css
+
+  testing
 
 ## 진행사항
 
