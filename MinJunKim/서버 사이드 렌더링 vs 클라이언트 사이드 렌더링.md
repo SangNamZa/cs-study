@@ -1,4 +1,4 @@
-# 서버 사이드 렌더링(SSR) vs 클라이언트 사이드 렌더링(CSR) 이 나뉘는 기준
+## 서버 사이드 렌더링(SSR) vs 클라이언트 사이드 렌더링(CSR) 이 나뉘는 기준
 - WebSite
   - Website는 Static Website(정적인 웹사이트로, 서버에 저장된 html 파일 그대로 브라우저에 보여준다) / Dynamic Website(동적인 웹사이트로 동적으로 html 파일이 만들어진다)
 - SPA (Single Page Application) : 요즘 웹사이트들 대부분의 제작 방식
