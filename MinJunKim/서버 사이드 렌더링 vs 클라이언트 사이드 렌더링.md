@@ -1,9 +1,8 @@
+# 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링
 ## 서버 사이드 렌더링(SSR) vs 클라이언트 사이드 렌더링(CSR) 이 나뉘는 기준
-- WebSite
+- WebSite 종류
   - Website는 Static Website(정적인 웹사이트로, 서버에 저장된 html 파일 그대로 브라우저에 보여준다) / Dynamic Website(동적인 웹사이트로 동적으로 html 파일이 만들어진다)
-- SPA (Single Page Application) : 요즘 웹사이트들 대부분의 제작 방식
-  - 하나의 html 파일로 전체 사이트(여러 페이지로 구성된)를 구현한다 
-- HTML 태그 자체르 자바스크립트가 동적으로 생성할 때, 만들어지는 곳이 Client Side 면 CSR, Server Side 면 SSR로 분류된다
+- HTML 태그 자체를 자바스크립트가 동적으로 생성할 때, 렌더링되는 곳이 Client Side 면 CSR, Server Side 면 SSR로 분류된다
 
 ## 서버 사이드 렌더링 (SSR)이란?
 
