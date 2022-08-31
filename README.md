@@ -57,7 +57,7 @@
 | [Git & GitHub](HanSeokhyeon/git-github.md)     | 2022.08.23 | 한석현 |      |
 | [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md) | 2022.08.23 | 김민준 |      |
 | 프로세스와 스레드의 차이 | 2022.08.30 | 한석현 |      |
-| 브라우저의 동작원리 | 2022.08.30 | 김민준 |      |
+| [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md) | 2022.08.30 | 김민준 |      |
 
 
 ## 참고
