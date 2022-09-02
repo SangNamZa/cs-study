@@ -46,7 +46,7 @@
   - CORS
   - 크로스 브라우징
   - 웹 성능과 관련된 Issues
-  - 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링
+  - [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md)
   - CSS Methodology
   - Normalize.css vs reset.css
 
