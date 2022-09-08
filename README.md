@@ -10,7 +10,7 @@
   - [RESTful API](MinJunKim/RestApi.md)
   - [Git & GitHub](HanSeokhyeon/git-github.md)
 - 자료구조
-  - Array vs Linked List
+  - [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md)
   - Stack and Queue
   - Tree
   - Hash Table
@@ -58,7 +58,7 @@
 | [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md) | 2022.08.23 | 김민준 |      |
 | [프로세스와 스레드의 차이](HanSeokhyeon/process-and-thread.md) | 2022.09.01 | 한석현 |      |
 | [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md) | 2022.09.01 | 김민준 |      |
-| Array vs Linked List | 2022.09.07 | 한석현 |  |
+| [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md) | 2022.09.07 | 한석현 |  |
 | [RESTful API](MinJunKim/RestApi.md) | 2022.09.07 | 김민준 |  |
 |  | 2022.09.14 | 한석현 |  |
 |  | 2022.09.14 | 김민준 |  |
