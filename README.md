@@ -7,7 +7,7 @@
 ## 공부 주제
 
 - 개발상식
-  - RESTful API
+  - [RESTful API](MinJunKim/RestApi.md)
   - [Git & GitHub](HanSeokhyeon/git-github.md)
 - 자료구조
   - Array vs Linked List
@@ -59,7 +59,7 @@
 | [프로세스와 스레드의 차이](HanSeokhyeon/process-and-thread.md) | 2022.09.01 | 한석현 |      |
 | [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md) | 2022.09.01 | 김민준 |      |
 | Array vs Linked List | 2022.09.07 | 한석현 |  |
-|  | 2022.09.07 | 김민준 |  |
+| [RESTful API](MinJunKim/RestApi.md) | 2022.09.07 | 김민준 |  |
 |  | 2022.09.14 | 한석현 |  |
 |  | 2022.09.14 | 김민준 |  |
 
