@@ -61,7 +61,7 @@
 | [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md) | 2022.09.07 | 한석현 |  |
 | [RESTful API](MinJunKim/RestApi.md) | 2022.09.07 | 김민준 |  |
 | [Stack and Queue](HanSeokhyeon/stack-and-queue.md) | 2022.09.15 | 한석현 |  |
-|  | 2022.09.15 | 김민준 |  |
+| 크로스 브라우징 | 2022.09.15 | 김민준 |  |
 
 
 ## 참고
