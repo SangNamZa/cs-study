@@ -11,7 +11,7 @@
   - [Git & GitHub](HanSeokhyeon/git-github.md)
 - 자료구조
   - [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md)
-  - Stack and Queue
+  - [Stack and Queue](HanSeokhyeon/stack-and-queue.md)
   - Tree
   - Hash Table
   - Graph
@@ -60,8 +60,8 @@
 | [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md) | 2022.09.01 | 김민준 |      |
 | [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md) | 2022.09.07 | 한석현 |  |
 | [RESTful API](MinJunKim/RestApi.md) | 2022.09.07 | 김민준 |  |
-|  | 2022.09.14 | 한석현 |  |
-|  | 2022.09.14 | 김민준 |  |
+| [Stack and Queue](HanSeokhyeon/stack-and-queue.md) | 2022.09.15 | 한석현 |  |
+|  | 2022.09.15 | 김민준 |  |
 
 
 ## 참고
