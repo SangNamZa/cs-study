@@ -44,7 +44,7 @@
   - [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md)
   - Document Object Model
   - CORS
-  - 크로스 브라우징
+  - [크로스 브라우징](MinJunKim/CrossBrowsing.md)   
   - 웹 성능과 관련된 Issues
   - [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md)
   - CSS Methodology
@@ -61,7 +61,7 @@
 | [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md) | 2022.09.07 | 한석현 |  |
 | [RESTful API](MinJunKim/RestApi.md) | 2022.09.07 | 김민준 |  |
 | [Stack and Queue](HanSeokhyeon/stack-and-queue.md) | 2022.09.15 | 한석현 |  |
-| 크로스 브라우징 | 2022.09.15 | 김민준 |  |
+| [크로스 브라우징](MinJunKim/CrossBrowsing.md) | 2022.09.15 | 김민준 |  |
 | | 2022.09.21 | 한석현 |  |
 | | 2022.09.21 | 김민준 |  |
 | | 2022.09.28 | 한석현 |  |
