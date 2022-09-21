@@ -29,6 +29,14 @@ class Node {
 }
 ```
 
+## 동작
+### 삽입
+![image](https://user-images.githubusercontent.com/38755868/191420157-91c66049-e4f4-4e0a-9e84-3109d8cb8918.png)
+
+### 삭제
+![image](https://user-images.githubusercontent.com/38755868/191420069-a1d7b554-d7fc-4383-b8c7-2c14b6a4d1a6.png)
+
+
 ## 예시
 * [네이버 쇼핑 카테고리](https://shopping.naver.com/home/p/index.naver)
 * [디렉토리 구조](https://github.com/SangNamZa/algorithm-study)
