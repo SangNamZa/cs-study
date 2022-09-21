@@ -17,7 +17,7 @@ URL을 이용하여 서버에 특정 데이터를 요청하면서 특정 동작�
 데이터를 읽을 때만 사용되고 수정할 때는 사용하지 않는다 -> 데이터의 변형 위험이 없다   
 모든 필요한 데이터를 URL에 포함하여 요청   
 data는 URL로 인코딩되어 action URL에 query string parameters로 전달=데이터 길이 제한,파라미터들은 URL의 일부분이기 때문에 브라우저 히스토리에 남음 -> 보안을 약하게 만듦.  
-URL로 인코딩되어서 북마크 가능
+URL로 인코딩되어서 북마크 가능   
 <img src="https://velog.velcdn.com/images%2Fpear%2Fpost%2Faee93259-5dee-4820-b971-4db7c82d78a1%2FScreen%20Shot%202020-08-30%20at%2010.12.17%20PM.png" width="60%" height="40%" alt=""></img>
 
 :쿼리스트링
