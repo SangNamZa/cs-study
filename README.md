@@ -17,7 +17,7 @@
   - Hash Table
   - Graph
 - 네트워크
-  - HTTP GET POST
+  - [HTTP GET POST](MinJunKim/HTTP_GET_POST.md)
   - TCP 3-way-handshake
   - TCP와 UDP의 비교
   - HTTP와 HTTPS
@@ -64,7 +64,7 @@
 | [Stack and Queue](HanSeokhyeon/stack-and-queue.md) | 2022.09.15 | 한석현 |  |
 | [크로스 브라우징](MinJunKim/CrossBrowsing.md) | 2022.09.15 | 김민준 |  |
 | [Tree](HanSeokhyeon/tree.md) | 2022.09.21 | 한석현 |  |
-| [HTTP GET POST] | 2022.09.21 | 김민준 |  |
+| [HTTP GET POST](MinJunKim/HTTP_GET_POST.md) | 2022.09.21 | 김민준 |  |
 | [현대적인 웹 애플리케이션의 구조](HanSeokhyeon/web-application.md) | 2022.09.29 | 한석현 |  |
 |[멀티스레드](MinJunKim/multi-thread.md) | 2022.09.29 | 김민준 |  |
 | | 2022.10.05 | 한석현 |  |
