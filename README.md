@@ -9,6 +9,7 @@
 - 개발상식
   - [RESTful API](MinJunKim/RestApi.md)
   - [Git & GitHub](HanSeokhyeon/git-github.md)
+  - [현대적인 웹 애플리케이션의 구조](HanSeokhyeon/web-application.md)
 - 자료구조
   - [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md)
   - [Stack and Queue](HanSeokhyeon/stack-and-queue.md)
@@ -64,8 +65,8 @@
 | [크로스 브라우징](MinJunKim/CrossBrowsing.md) | 2022.09.15 | 김민준 |  |
 | [Tree](HanSeokhyeon/tree.md) | 2022.09.21 | 한석현 |  |
 | [HTTP GET POST] | 2022.09.21 | 김민준 |  |
-| | 2022.09.28 | 한석현 |  |
-| | 2022.09.28 | 김민준 |  |
+| [현대적인 웹 애플리케이션의 구조](HanSeokhyeon/web-application.md) | 2022.09.29 | 한석현 |  |
+| | 2022.09.29 | 김민준 |  |
 | | 2022.10.05 | 한석현 |  |
 | | 2022.10.05 | 김민준 |  |
 
