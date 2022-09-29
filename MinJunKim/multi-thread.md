@@ -17,4 +17,7 @@
 - 프로세스의 context switching과 달리 스레드 간의 context switching은 캐시 메모리를 비울 필요가 없기 때문에 더 빠르고 경제적이다
 - context switching, 자원의 동기화 작업으로 인하여 싱글스레드에 비해서 느리다
 
-C++는 멀티스레드 / JS는 싱글스레드 언어라고 알려져있다
+## 멀티프로세스 vs 멀티스레드
+<img src='https://t1.daumcdn.net/cfile/tistory/230A334B5822F74D08' width='50%' />
+<img src='https://t1.daumcdn.net/cfile/tistory/217D00505822F78905' width='50%' />
+멀티프로세스는 자신만의 메모리 영역이 유지되는 반면, 멀티스레드에서는 자원들이 동기화가 이루어져야한다
