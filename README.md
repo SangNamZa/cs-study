@@ -12,7 +12,7 @@
 - 자료구조
   - [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md)
   - [Stack and Queue](HanSeokhyeon/stack-and-queue.md)
-  - Tree
+  - [Tree](HanSeokhyeon/tree.md)
   - Hash Table
   - Graph
 - 네트워크
@@ -62,8 +62,8 @@
 | [RESTful API](MinJunKim/RestApi.md) | 2022.09.07 | 김민준 |  |
 | [Stack and Queue](HanSeokhyeon/stack-and-queue.md) | 2022.09.15 | 한석현 |  |
 | [크로스 브라우징](MinJunKim/CrossBrowsing.md) | 2022.09.15 | 김민준 |  |
-| | 2022.09.21 | 한석현 |  |
-|[HTTP GET POST] | 2022.09.21 | 김민준 |  |
+| [Tree](HanSeokhyeon/tree.md) | 2022.09.21 | 한석현 |  |
+| [HTTP GET POST] | 2022.09.21 | 김민준 |  |
 | | 2022.09.28 | 한석현 |  |
 | | 2022.09.28 | 김민준 |  |
 | | 2022.10.05 | 한석현 |  |
