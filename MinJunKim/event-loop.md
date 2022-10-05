@@ -28,3 +28,4 @@ https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-as
 2.쌓일 때 WebAPI를 사용하게되면 그부분으로 넘어간다.(그러고 스택에서 사라지고, 다음 함수가 쌓인다)<br />
 3.setTimeout 처럼 그 과정이 실행되면, callback 함수가 callback queue에 줄 선다.<br />
 4.callback queue에 줄 선 콜백함수들을 event loop가 스택이 비엇는지 주시하다가 비면 스택으로 넣어준다.<br />
+5.promise의 경우 다르 방식으로 작동하는 점 참고
