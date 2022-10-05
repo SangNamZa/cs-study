@@ -15,7 +15,7 @@
   - [Stack and Queue](HanSeokhyeon/stack-and-queue.md)
   - [Tree](HanSeokhyeon/tree.md)
   - Hash Table
-  - Graph
+  - [Graph](HanSeokhyeon/graph.md)
 - 네트워크
   - [HTTP GET POST](MinJunKim/HTTP_GET_POST.md)
   - TCP 3-way-handshake
@@ -66,9 +66,9 @@
 | [Tree](HanSeokhyeon/tree.md) | 2022.09.21 | 한석현 |  |
 | [HTTP GET POST](MinJunKim/HTTP_GET_POST.md) | 2022.09.21 | 김민준 |  |
 | [현대적인 웹 애플리케이션의 구조](HanSeokhyeon/web-application.md) | 2022.09.29 | 한석현 |  |
-|[멀티스레드](MinJunKim/multi-thread.md) | 2022.09.29 | 김민준 |  |
-| | 2022.10.05 | 한석현 |  |
-|[Event Loop](MinJunKim/event-loop.md) | 2022.10.05 | 김민준 |  |
+| [멀티스레드](MinJunKim/multi-thread.md) | 2022.09.29 | 김민준 |  |
+| [Graph](HanSeokhyeon/graph.md) | 2022.10.05 | 한석현 |  |
+| [Event Loop](MinJunKim/event-loop.md) | 2022.10.05 | 김민준 |  |
 | | 2022.10.12 | 한석현 |  |
 | | 2022.10.12 | 김민준 |  |
 
