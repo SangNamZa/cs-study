@@ -60,16 +60,14 @@
 이럴 경우 모든거 하나하나 다 클릭하면서 알아봐야함<br />
 디자인시스템에 익숙하지 않은 신규 입사자들의 러닝커브가 점점 높아졌음.<br />
 <br />
+<br />
+
+
+### 그 다음 단계 = Design Syntax Tree (DST)
 프레이머에서 구현한 디자인은 이미 리액트 앱인데, 이것을 다시 클릭해서 알아보면서 개발하는게 이상했음<br />
 <br />
 디자인 시스템을 표현하는 새로운 핸드오프 도구를 만들기로함<br />
 요소 선택하면 디자인 시스템이라는 것을 명시적으로 표현해야했음(이 다음 과정은 요약…)<br />
-<br />
-<br />
-<br />
-
-
-그 다음 단계 = Design Syntax Tree (DST)
 ![DST Element](https://user-images.githubusercontent.com/101058125/195038441-2db26281-db4f-4518-b9cd-0fcdc5b8d25a.png)
 ![Structured Design](https://user-images.githubusercontent.com/101058125/195038461-1f8cbc25-406c-4c25-95f8-ad382db94846.png)<br />
 컴포넌트가 이미 2만개가 될정도로 다양해도, 디자이너가 다 파악하기 어려워 그냥 커스터마이즈 하는 경우들이 많이 발생<br />
