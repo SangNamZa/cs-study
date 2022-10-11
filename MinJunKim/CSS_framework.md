@@ -24,6 +24,12 @@ CSS-in-JS 중에서는 styled Components, emotion이 1,2등
   - JS에 css를 정리하면 동적으로 스타일링을 변경할 수 있어서 좋다 라고 생각하기도 하지만,    
   - 비지니스 로직에 들어있어야할 js 파일 안에 스타일링이 섞여있어서 presentation과 behavior이 섞여 있어서 지저분하고 유지보수가 힘들다고 느끼기도 한다.
 
+- Bootstrap, Tailwind CSS, Material UI
+  - 미리 만들어진 ui 컴포넌트를 가져다 쓰기에 빠른 개발이 가능해서 좋음
+
+- 정형화된 스타일링이 싫어 직접 만들어 쓰는 경우 postcss, styled-components 를 사용하거나 tailwind에서 스타일링을 customization 해서 사용한다.
+
+
 ### Styled-Components
 컴포넌트 단위로 스타일링하기 때문에 개별 케이스로 분리해 css를 작성한다
 구체적 사용법 가이드 : https://nykim.work/107
