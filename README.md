@@ -50,6 +50,7 @@
   - [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md)
   - CSS Methodology
   - Normalize.css vs reset.css
+  - [CSS Frameworks](MinJunKim/CSS_framework.md)
 
 ## 진행사항
 
@@ -70,7 +71,7 @@
 | [Graph](HanSeokhyeon/graph.md) | 2022.10.05 | 한석현 |  |
 | [Event Loop](MinJunKim/event-loop.md) | 2022.10.05 | 김민준 |  |
 | | 2022.10.13 | 한석현 |  |
-| | 2022.10.13 | 김민준 |  |
+|[CSS Frameworks](MinJunKim/CSS_framework.md) | 2022.10.13 | 김민준 |  |
 | | 2022.10.19 | 한석현 |  |
 | | 2022.10.19 | 김민준 |  |
 | | 2022.10.26 | 한석현 |  |
