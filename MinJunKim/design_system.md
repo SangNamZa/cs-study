@@ -66,7 +66,7 @@
 요소 선택하면 디자인 시스템이라는 것을 명시적으로 표현해야했음(이 다음 과정은 요약…)<br />
 <br />
 <br />
-
+<br />
 
 
 그 다음 단계 = Design Syntax Tree (DST)
@@ -75,8 +75,9 @@
 컴포넌트가 이미 2만개가 될정도로 다양해도, 디자이너가 다 파악하기 어려워 그냥 커스터마이즈 하는 경우들이 많이 발생<br />
 그래서 디자인 시스템 사용률을 높이는, 디자인 시스템 Coverage 계산기 확장자를 만들어냄<br />
 디자인 툴에서 디자인 시스템을 벗어났다는 것을 알려줌(design linter)
-![Coverage](https://user-images.githubusercontent.com/101058125/195038516-a9bb4390-8e43-4ed4-a26a-f4dae42f6577.png)
-디자인 시스템에서 적용하는 퍼센테지를 높이면서 디자인하게 됨.
+![Coverage](https://user-images.githubusercontent.com/101058125/195038516-a9bb4390-8e43-4ed4-a26a-f4dae42f6577.png) <br />
+디자인 시스템에서 적용하는 퍼센테지를 높이면서 디자인하게 됨.<br />
+더 다양한 디자인을 담아내고자 함 (3d, animation 등등)
 
 
 
