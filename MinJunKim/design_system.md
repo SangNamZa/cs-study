@@ -71,7 +71,7 @@
 
 그 다음 단계 = Design Syntax Tree (DST)
 ![DST Element](https://user-images.githubusercontent.com/101058125/195038441-2db26281-db4f-4518-b9cd-0fcdc5b8d25a.png)
-![Structured Design](https://user-images.githubusercontent.com/101058125/195038461-1f8cbc25-406c-4c25-95f8-ad382db94846.png)
+![Structured Design](https://user-images.githubusercontent.com/101058125/195038461-1f8cbc25-406c-4c25-95f8-ad382db94846.png)<br />
 컴포넌트가 이미 2만개가 될정도로 다양해도, 디자이너가 다 파악하기 어려워 그냥 커스터마이즈 하는 경우들이 많이 발생<br />
 그래서 디자인 시스템 사용률을 높이는, 디자인 시스템 Coverage 계산기 확장자를 만들어냄<br />
 디자인 툴에서 디자인 시스템을 벗어났다는 것을 알려줌(design linter)
