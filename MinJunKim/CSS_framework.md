@@ -31,6 +31,7 @@ CSS-in-JS 중에서는 styled Components, emotion이 1,2등
 
 
 ### Styled-Components
+<img src='https://cdn-media-1.freecodecamp.org/images/1*DIFji4ZmJa4_H3EpbG2XAw.png' width='50%' />
 컴포넌트 단위로 스타일링하기 때문에 개별 케이스로 분리해 css를 작성한다
 구체적 사용법 가이드 : https://nykim.work/107
 
