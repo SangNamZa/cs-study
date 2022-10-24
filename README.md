@@ -51,6 +51,7 @@
   - CSS Methodology
   - Normalize.css vs reset.css
   - [CSS Frameworks](MinJunKim/css-framework.md)
+  - [Design System](MinJunKim/design_system.md)
 
 ## 진행사항
 
