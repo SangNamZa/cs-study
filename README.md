@@ -27,7 +27,7 @@
   - [프로세스와 스레드의 차이](HanSeokhyeon/process-and-thread.md)
   - [멀티스레드](MinJunKim/multi-thread.md)
   - 스케줄러
-  - 동기와 비동기
+  - [동기와 비동기](MinJunKim/synchronousasynchronous.md)
   - 메모리 관리 전략
   - 캐시의 지역성
 - 알고리즘
