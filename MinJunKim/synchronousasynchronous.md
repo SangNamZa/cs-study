@@ -21,8 +21,7 @@ ex) A, B 스레드가 동시에 작업을 시작하는 경우 (자바의 CyclicB
 <img src='https://velog.velcdn.com/images%2Fguswns3371%2Fpost%2F8d93245e-e316-4502-9774-ccae1b752636%2Fimage.png' width='50%' />
 비동기는 작업을 수행하는 주체의 시작시간과 끝나는 시간에 관계없이 각자 별도의 시작 시간, 끝나는 시간을 갖는다
 
-=> 작업을 수행하는 주체에 관점을 둔다
-
+#### 동기, 비동기는 작업을 수행하는 주체에 관점을 둔다
 여기서 동시에라는 말은 실행되었을 때 값이 반환되기 전까지는 Blocking 되어 있다는 것을 의미한다.
 
 ## Blocking vs Non-Blocking
