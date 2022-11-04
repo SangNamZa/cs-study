@@ -14,7 +14,7 @@
   - [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md)
   - [Stack and Queue](HanSeokhyeon/stack-and-queue.md)
   - [Tree](HanSeokhyeon/tree.md)
-  - Hash Table
+  - [Hash Table](HanSeokhyeon/hash-table.md)
   - [Graph](HanSeokhyeon/graph.md)
 - 네트워크
   - [HTTP GET POST](MinJunKim/HTTP_GET_POST.md)
@@ -74,8 +74,8 @@
 | | 2022.10.13 | 한석현 |  |
 |[CSS-Frameworks](MinJunKim/css-framework.md) | 2022.10.13 | 김민준 |  |
 | | 2022.10.19 | 한석현 |  |
-|[동기 비동기](synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
-| | 2022.10.26 | 한석현 |  |
+|[동기 비동기](MinJunKim/synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
+| [Hash table](HanSeokhyeon/hash-table.md) | 2022.10.26 | 한석현 |  |
 | | 2022.10.26 | 김민준 |  |
 
 ## 참고
