@@ -8,6 +8,8 @@
 A가 끝나는 시간과 B가 시작하는 시간을 맞추면 Synchronous (동기)이다.<br />
 ex) 자바의 synchronized 와 BlockingQueue가 있다.
 <br />
+<br />
+
 
 <img src='https://velog.velcdn.com/images%2Fguswns3371%2Fpost%2Fb50808ff-b090-4396-a3fd-4e284908fdde%2Fimage.png' width='50%' />
 A와 B가 시작 시간 또는 종료 시간이 일치하면 Synchronous (동기)이다.<br />
