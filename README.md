@@ -78,6 +78,8 @@
 |[동기 비동기](MinJunKim/synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
 | [Hash table](HanSeokhyeon/hash-table.md) | 2022.10.26 | 한석현 |  |
 | | 2022.10.26 | 김민준 |  |
+| [인터넷 네트워크](HanSeokhyeon/network.md) | 2022.11.14 | 한석현 |  |
+| | 2022.11.14 | 김민준 |  |
 
 ## 참고
 
