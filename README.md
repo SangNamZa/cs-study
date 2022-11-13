@@ -18,7 +18,7 @@
   - [Graph](HanSeokhyeon/graph.md)
 - 네트워크
   - [HTTP GET POST](MinJunKim/HTTP_GET_POST.md)
-  - 인터넷 네트워크(김영한 강사님 자료)
+  - [인터넷 네트워크](HanSeokhyeon/network.md)
   - TCP 3-way-handshake
   - TCP와 UDP의 비교
   - HTTP와 HTTPS
