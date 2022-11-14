@@ -79,7 +79,7 @@
 | [Hash table](HanSeokhyeon/hash-table.md) | 2022.10.26 | 한석현 |  |
 | | 2022.10.26 | 김민준 |  |
 | [인터넷 네트워크](HanSeokhyeon/network.md) | 2022.11.14 | 한석현 |  |
-| | 2022.11.14 | 김민준 |  |
+| [Arrow Function](MinJunKim/Arrow_Function.md)| 2022.11.14 | 김민준 |  |
 
 ## 참고
 
