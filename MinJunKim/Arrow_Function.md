@@ -23,16 +23,33 @@ let sum = function(a, b) {
 };
 ```
 
-### 화살표 함수의 다양한 경우
-- 인수가 하나밖에 없다면 인수를 감싸는 괄호를 생략할 수 있다
+### 화살표 함수의 특징
+#### 매개변수 지정 방법
+- 매개변수가 하나도 없을 땐 괄호를 비워둔다.(괄호 생략 불가)
+```javaScript
+let sayHi = () => alert("안녕하세요!");
+```
+- 매개변수가 하나밖에 없다면 인수를 감싸는 괄호를 생략할 수 있다
 ```javaScript
 let double = n => n * 2;
 // let double = function(n) { return n * 2 }과 거의 동일
 ```
-- 인수가 하나도 없을 땐 괄호를 비워둔다.(괄호 생략 불가)
+- 매개변수가 여러 개인 경우, 소괄호를 생략할 수 없다
 ```javaScript
-let sayHi = () => alert("안녕하세요!");
+(x, y) => { ... } 
 ```
+
+
+- 본문이 여러 줄이면 중괄호를 사용해야함.(return 지시자로 결과값을 반환해야함)
+```javaScript
+let sum = (a, b) => {  // 여러 줄이면 중괄호 사용
+  let result = a + b;
+  return result; // 중괄호를 사용했다면, return 지시자로 결괏값을 반환
+};
+
+alert( sum(1, 2) ); // 3```
+
+
 - 동적인 함수로 사용 가능
 ```javaScript
 let age = prompt("나이를 알려주세요.", 18);
@@ -43,11 +60,23 @@ let welcome = (age < 18) ?
 
 welcome();
 ```
-- 본문이 여러 줄이면 중괄호를 사용해야한다.(return 지시자로 결과값을 반환해야함)
-```javaScript
-let sum = (a, b) => {  // 여러 줄이면 중괄호 사용
-  let result = a + b;
-  return result; // 중괄호를 사용했다면, return 지시자로 결괏값을 반환
-};
 
-alert( sum(1, 2) ); // 3```
+- 객체 반환시 소괄호를 사용
+```javaScript
+() => { return { a: 1 }; }
+() => ({ a: 1 })  // 위 표현과 동일
+```
+
+#### 화살표 함수는 익명 함수로만 사용 가능
+```javaScript
+const pow = x => x * x;
+console.log(pow(10)); // 100
+```
+
+#### 화살표 함수는 콜백 함수로 사용 가능
+```javaScript
+const arr = [1, 2, 3];
+const pow = arr.map(x => x * x);
+
+console.log(pow); // [ 1, 4, 9 ]
+```
