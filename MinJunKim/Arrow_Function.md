@@ -32,5 +32,22 @@ let double = n => n * 2;
 - 인수가 하나도 없을 땐 괄호를 비워둔다.(괄호 생략 불가)
 ```javaScript
 let sayHi = () => alert("안녕하세요!");
-
 ```
+- 동적인 함수로 사용 가능
+```javaScript
+let age = prompt("나이를 알려주세요.", 18);
+
+let welcome = (age < 18) ?
+  () => alert('안녕') :
+  () => alert("안녕하세요!");
+
+welcome();
+```
+- 본문이 여러 줄이면 중괄호를 사용해야한다.(return 지시자로 결과값을 반환해야함)
+```javaScript
+let sum = (a, b) => {  // 여러 줄이면 중괄호 사용
+  let result = a + b;
+  return result; // 중괄호를 사용했다면, return 지시자로 결괏값을 반환
+};
+
+alert( sum(1, 2) ); // 3```
