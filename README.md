@@ -77,7 +77,7 @@
 | | 2022.10.19 | 한석현 |  |
 |[동기 비동기](MinJunKim/synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
 | [Hash table](HanSeokhyeon/hash-table.md) | 2022.10.26 | 한석현 |  |
-| | 2022.10.26 | 김민준 |  |
+| [Design System](MinJunKim/design_system.md)| 2022.10.26 | 김민준 |  |
 | [인터넷 네트워크](HanSeokhyeon/network.md) | 2022.11.14 | 한석현 |  |
 | [Arrow Function](MinJunKim/Arrow_Function.md)| 2022.11.14 | 김민준 |  |
 
