@@ -19,7 +19,13 @@ Resource Server 와 Authorization Server는 같은 소속이다.
 ### Authorization Code Grant 권한 부여 승인 코드 방식
 <img src='https://github.com/SangHyunGil/Blog/blob/master/img/oauth2jwt/2.PNG?raw=true' />
 <img src='https://github.com/SangHyunGil/Blog/blob/master/img/oauth2jwt/3.PNG?raw=true' />
+1~5 단계는 Authorization Code 발급 요청 URL을 통해 진행할 수 있습니다.
 
+7~8 단계는 서비스에서 callback URL 을 통해 전달받은 Authorization Code를 사용하여 Access Token 요청 API를 통해 진행할 수 있습니다.
+
+8 단계에서 발급받은 Access Token은 서비스에서 자체적으로 저장, 관리해야 합니다.
+
+10~11 사용자의 서비스 요청 시 회원정보가 필요하다면 Access Token을 사용해 API를 호출할 수 있습니다.
 
 ### OAuth 2.0 단점
 토큰 유효기간이 짧으면 로그인 자주하는 번거로움, 길면 토큰 탈취 시 보안에 취약. 유효기간이 짧은 access token에는 사용자의 디테일한 정보가 담기고, 유효기간이 긴 refresh token에는 access token을 재발급해주는 역할만함. 서버가 Access Token의 유효성과 권한을 확인하기 위해 서버에 계속적으로 요청하여 서버의 부하로 이어질 수 있다. 이를 해결하기 위해 JWT 기반 인증 방식이 사용됨. 
