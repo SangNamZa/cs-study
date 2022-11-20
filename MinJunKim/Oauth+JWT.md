@@ -1,17 +1,17 @@
 # OAuth(Open Authorization)
 
-인증을 위한 프로토콜. 인증(Authentication)과 인가(Authorization)를 포함하는데 인가에 더 초점.
+외부서비스(우리가 만들고 있는 서비스)의 인증 및 권한(접근할 수 있는 데이터가 다름)부여를 관리하기 위한 프로토콜(여기서 프로토콜은 규격. google, naver 등은 OAuth라는 규격에 맞춰 인증, 권한을 대행관리 함). 인증(Authentication)과 인가(Authorization)를 포함하는데 인가에 더 초점.
 
 ## OAuth 2.0 구성 요소
-- Resource Owner : 사용자. 사람 또는 Application 자체. ex) 나
-- Client Application : 사용자가 사용하는 서비스 앱. 서버, 데탑 등 기기들. ex) velog
-- Resource Server : OAuth를 통해 인증, 인가를 제공하는 서버. 이름, 이메일 등 자원을 제공한다. ex) google, naver
-- Authorization Server : OAuth를 통해 인증, 인가를 제공하는 서버. 토큰을 발급함. ex) google, naver
+- Resource Owner : 실제로 앱을 활용하는 사용자. ex) 나
+- Client Application : 보호된 자원을 사용하려고 접근 요청하는 애플리케이션. 우리가 사용하고자 하는 애플리케이션.
+- Resource Server : OAuth 관리 서버의 자체 API. OAuth를 통해 인증, 인가를 제공하는 서버. 이름, 이메일 등 자원을 제공한다. ex) google, naver
+- Authorization Server : 권한(인증, 인가)을 관리하는 서버. Access Token, Refresh Token을 발급, 재발금 함. ex) google, naver
 
 Resource Server 와 Authorization Server는 같은 소속이다.
 
 ## OAuth 2.0 4가지 인증 방식
-1) Authorization Code Grant
+1) Authorization Code Grant : 가장 많이 쓰임
 2) Implicit Grant
 3) Resource Owner Password Credentials Grant
 4) Client Credentials Grant
