@@ -2,23 +2,27 @@
 
 외부서비스(우리가 만들고 있는 서비스)의 인증 및 권한(접근할 수 있는 데이터가 다름)부여를 관리하기 위한 프로토콜(여기서 프로토콜은 규격. google, naver 등은 OAuth라는 규격에 맞춰 인증, 권한을 대행관리 함). 인증(Authentication)과 인가(Authorization)를 포함하는데 인가에 더 초점.
 
-## OAuth 2.0 구성 요소
-- Resource Owner : 실제로 앱을 활용하는 사용자. ex) 나
-- Client Application : 보호된 자원을 사용하려고 접근 요청하는 애플리케이션. 우리가 사용하고자 하는 애플리케이션.
-- Resource Server : OAuth 관리 서버의 자체 API. OAuth를 통해 인증, 인가를 제공하는 서버. 이름, 이메일 등 자원을 제공한다. ex) google, naver
-- Authorization Server : 권한(인증, 인가)을 관리하는 서버. Access Token, Refresh Token을 발급, 재발금 함. ex) google, naver
-
-Resource Server 와 Authorization Server는 같은 소속이다.
-
 ## OAuth 2.0 4가지 인증 방식
 1) Authorization Code Grant : 가장 많이 쓰임 / 권한 부여 승인 코드 방식
 2) Implicit Grant 암묵적 승인 방식
 3) Resource Owner Password Credentials Grant 자원소유자 자격증명 승인 방식
 4) Client Credentials Grant 클라이언트 자격증명 승인 방식
 
+## OAuth 2.0 구성 요소
+- Resource Owner : 실제로 앱을 활용하는 사용자. ex) 나
+- Client Application : 보호된 자원을 사용하려고 접근 요청하는 애플리케이션. 우리가 사용하고자 하는 애플리케이션.
+- Resource Server : OAuth 관리 서버의 자체 API. OAuth를 통해 인증, 인가를 제공하는 서버. 이름, 이메일 등 자원을 제공한다. ex) PAYCO API 서비스
+- Authorization Server : 권한(인증, 인가)을 관리하는 서버. Access Token, Refresh Token을 발급, 재발금 함. ex) PAYCO 인증 서비스
+
+Resource Server 와 Authorization Server는 같은 소속이다.
+
 ### Authorization Code Grant 권한 부여 승인 코드 방식
 <img src='https://github.com/SangHyunGil/Blog/blob/master/img/oauth2jwt/2.PNG?raw=true' />
 <img src='https://github.com/SangHyunGil/Blog/blob/master/img/oauth2jwt/3.PNG?raw=true' />
+
+
+### OAuth 2.0 단점
+서버가 Access Token의 
 
 ## JWT(Json Web Token) : Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 Claim(토큰에 저장된 정보들) 기반의 Web Token.
 사용자의 정보를 안전하게 자체적으로 담고 있어서 토큰 자체를 정보로 사용함. 한번 인증 후에는 JWT를 활용하여 자체적으로 정보가 맞는지 확인하여 만료전까지 계속 사용.
