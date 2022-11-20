@@ -11,9 +11,9 @@
 ## OAuth 2.0 구성 요소
 - Resource Owner : 실제로 앱을 활용하는 사용자. ex) 나
 - Client Application : 보호된 자원을 사용하려고 접근 요청하는 애플리케이션. 우리가 사용하고자 하는 애플리케이션.
-- Resource Server : OAuth 관리 서버의 자체 API. OAuth를 통해 인증, 인가를 제공하는 서버. 이름, 이메일 등 자원을 제공한다. ex) PAYCO API 서비스
 - Authorization Server : 권한(인증, 인가)을 관리하는 서버. Access Token, Refresh Token을 발급, 재발금 함. ex) PAYCO 인증 서비스
-
+- Resource Server : OAuth 관리 서버의 자체 API. OAuth를 통해 인증, 인가를 제공하는 서버. 이름, 이메일 등 자원을 제공한다. ex) PAYCO API 서비스
+<br />
 Resource Server 와 Authorization Server는 같은 소속이다.
 
 ### Authorization Code Grant 권한 부여 승인 코드 방식
@@ -22,9 +22,10 @@ Resource Server 와 Authorization Server는 같은 소속이다.
 
 
 ### OAuth 2.0 단점
-서버가 Access Token의 유효성과 권한을 확인하기 위해 서버에 계속적으로 요청하여 서버의 부하로 이어질 수 있다. 이를 해결하기 위해 JWT 기반 인증 방식이 사용됨.
+토큰 유효기간이 짧으면 로그인 자주하는 번거로움, 길면 토큰 탈취 시 보안에 취약. 유효기간이 짧은 access token에는 사용자의 디테일한 정보가 담기고, 유효기간이 긴 refresh token에는 access token을 재발급해주는 역할만함. 서버가 Access Token의 유효성과 권한을 확인하기 위해 서버에 계속적으로 요청하여 서버의 부하로 이어질 수 있다. 이를 해결하기 위해 JWT 기반 인증 방식이 사용됨. 
 
 ## JWT(Json Web Token) : Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 Claim(토큰에 저장된 정보들) 기반의 Web Token.
+
 사용자의 정보를 안전하게 자체적으로 담고 있어서 토큰 자체를 정보로 사용함. 한번 인증 후에는 JWT를 활용하여 자체적으로 정보가 맞는지 확인하여 만료전까지 계속 사용.
 토큰이 세션 대신 사용되는 이유는 stateless 해서 확장에 용이하기 때문. 토큰은 로그인이 유지되는 것 같은거지, 실제로 로그인을 유지하는게 아니다. 클라이언트가 access token을 저장해두고, 요청 때 마다 보내는 방식이라서, access token을 가지고 있다면 로그아웃을 했더라도 로그인 된 상태처럼 행동한다.
 
