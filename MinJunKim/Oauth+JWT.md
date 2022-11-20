@@ -40,6 +40,25 @@ Resource Server 와 Authorization Server는 같은 소속이다.
 - PayLoad : 토큰에 저장된 정보들(3가지 종류의 클레임 : 등록된 클레임, 공개 클레임, 비공개 클레임)이 Json 형태로 여러 정보가 담겨진다.
 - Signature : 토큰을 인코딩하거나 유효성 검증을 할 때 사용되는 고유한 암호화 코드.
 
+### OAuth 와 JWT 함꼐 사용하는 법
+authentication server가 사용자의 credentials를 OAuth를 통해 확인하면, client application으로 유저의 세부 정보들을 보내야한다. client application이 세부 정보를 확인하기 위해서 JWT가 효율적인 과정을 위해 사용된다. OAuth 과정이 끝나면, OAuth server가 유저 정보가 담긴 JWT를 client로 보낸다.
+```
+{
+    "iss": "https://accounts.google.com",
+    "azp": "1234987819200.apps.googleusercontent.com",
+    "aud": "1234987819200.apps.googleusercontent.com",
+    "sub": "10769150350006150715113082367",
+    "at_hash": "HK6E_P6Dh8Y93mRNtsDB1Q",
+    "email": "jsmith@example.com",
+    "email_verified": "true",
+    "iat": 1353601026,
+    "exp": 1353604926,
+    "nonce": "0394852-3190485-2490358",
+    "hd": "example.com",
+}
+```
+=> OAuth server로부터 보내지는 JWT 안의 JSON payload의 대표적인 예시.
+
 ## 과정
 <img src='https://velog.velcdn.com/images%2Fmax9106%2Fpost%2F5620524a-4359-4abd-b90c-07b65359b3ca%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-12%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%204.16.43.png' />
 
