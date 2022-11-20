@@ -22,7 +22,7 @@ Resource Server 와 Authorization Server는 같은 소속이다.
 
 
 ### OAuth 2.0 단점
-서버가 Access Token의 
+서버가 Access Token의 유효성과 권한을 확인하기 위해 서버에 계속적으로 요청하여 서버의 부하로 이어질 수 있다. 이를 해결하기 위해 JWT 기반 인증 방식이 사용됨.
 
 ## JWT(Json Web Token) : Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 Claim(토큰에 저장된 정보들) 기반의 Web Token.
 사용자의 정보를 안전하게 자체적으로 담고 있어서 토큰 자체를 정보로 사용함. 한번 인증 후에는 JWT를 활용하여 자체적으로 정보가 맞는지 확인하여 만료전까지 계속 사용.
