@@ -17,6 +17,10 @@ Resource Server 와 Authorization Server는 같은 소속이다.
 4) Client Credentials Grant
 
 ## JWT
+토큰이 세션 대신 사용되는 이유는 stateless 해서 확장에 용이하기 때문. 토큰은 로그인이 유지되는 것 같은거지, 실제로 로그인을 유지하는게 아니다. 클라이언트가 access token을 저장해두고, 요청 때 마다 보내는 방식이라서, access token을 가지고 있다면 로그아웃을 했더라도 로그인 된 상태처럼 행동한다.
+
+## 과정
+<img src='https://velog.velcdn.com/images%2Fmax9106%2Fpost%2F5620524a-4359-4abd-b90c-07b65359b3ca%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-12%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%204.16.43.png' />
 
 ## 프론트엔드 파트
 - github OAuth 서버로 github 로그인 요청 후, Authorization code 발급 받아, 백엔드에 전달
