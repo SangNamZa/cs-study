@@ -21,7 +21,7 @@
   - [인터넷 네트워크](HanSeokhyeon/network.md)
   - TCP 3-way-handshake
   - TCP와 UDP의 비교
-  - HTTP와 HTTPS
+  - [HTTP와 HTTPS](HanSeokhyeon/http-and-https.md)
   - DNS Round Robin
   - 웹 통신의 큰 흐름
 - 운영체제
@@ -72,15 +72,14 @@
 | [멀티스레드](MinJunKim/multi-thread.md) | 2022.09.29 | 김민준 |  |
 | [Graph](HanSeokhyeon/graph.md) | 2022.10.05 | 한석현 |  |
 | [Event Loop](MinJunKim/event-loop.md) | 2022.10.05 | 김민준 |  |
-| | 2022.10.13 | 한석현 |  |
 |[CSS-Frameworks](MinJunKim/css-framework.md) | 2022.10.13 | 김민준 |  |
-| | 2022.10.19 | 한석현 |  |
 |[동기 비동기](MinJunKim/synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
 | [Hash table](HanSeokhyeon/hash-table.md) | 2022.10.26 | 한석현 |  |
 | [Design System](MinJunKim/design_system.md)| 2022.10.26 | 김민준 |  |
 | [인터넷 네트워크](HanSeokhyeon/network.md) | 2022.11.14 | 한석현 |  |
 | [Arrow Function](MinJunKim/Arrow_Function.md)| 2022.11.14 | 김민준 |  |
-
+| [HTTP와 HTTPS](HanSeokhyeon/http-and-https.md) | 2022.11.25 | 한석현 |
+ 
 ## 참고
 
 - https://github.com/JaeYeopHan/Interview_Question_for_Beginner#그-외-좋은-자료
