@@ -79,6 +79,8 @@
 | [인터넷 네트워크](HanSeokhyeon/network.md) | 2022.11.14 | 한석현 |  |
 | [Arrow Function](MinJunKim/Arrow_Function.md)| 2022.11.14 | 김민준 |  |
 | [HTTP와 HTTPS](HanSeokhyeon/http-and-https.md) | 2022.11.25 | 한석현 |
+| [Oauth + JWT](MinJunKim/Oauth+JWT.md)| 2022.11.29 | 김민준 |  |
+
  
 ## 참고
 
