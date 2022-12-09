@@ -82,6 +82,8 @@
 | [HTTP와 HTTPS](HanSeokhyeon/http-and-https.md) | 2022.11.25 | 한석현 |
 | [Oauth + JWT](MinJunKim/Oauth+JWT.md)| 2022.11.29 | 김민준 |  |
 | [XSS](HanSeokhyeon/xss.md) | 2022.12.09 | 한석현 |  |
+| [CORS](MinJunKim/cors.md) | 2022.12.09 | 김민준 |  |
+
 
 
  
