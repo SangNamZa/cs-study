@@ -45,7 +45,7 @@
 - FrontEnd
   - [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md)
   - Document Object Model
-  - CORS
+  - [CORS](MinJunKim/cors.md)
   - [크로스 브라우징](MinJunKim/CrossBrowsing.md)   
   - 웹 성능과 관련된 Issues
   - [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md)
