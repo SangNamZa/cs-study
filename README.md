@@ -43,7 +43,6 @@
   - Promise
   - [Arrow Function](MinJunKim/Arrow_Function.md)
 - FrontEnd
-
   - [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md)
   - Document Object Model
   - CORS
@@ -54,6 +53,7 @@
   - Normalize.css vs reset.css
   - [CSS Frameworks](MinJunKim/css-framework.md)
   - [Design System](MinJunKim/design_system.md)
+  - [XSS](HanSeokhyeon/xss.md)
 
 ## 진행사항
 
@@ -73,14 +73,16 @@
 | [멀티스레드](MinJunKim/multi-thread.md) | 2022.09.29 | 김민준 |  |
 | [Graph](HanSeokhyeon/graph.md) | 2022.10.05 | 한석현 |  |
 | [Event Loop](MinJunKim/event-loop.md) | 2022.10.05 | 김민준 |  |
-|[CSS-Frameworks](MinJunKim/css-framework.md) | 2022.10.13 | 김민준 |  |
-|[동기 비동기](MinJunKim/synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
+| [CSS-Frameworks](MinJunKim/css-framework.md) | 2022.10.13 | 김민준 |  |
+| [동기 비동기](MinJunKim/synchronousasynchronous.md) | 2022.10.19 | 김민준 |  |
 | [Hash table](HanSeokhyeon/hash-table.md) | 2022.10.26 | 한석현 |  |
 | [Design System](MinJunKim/design_system.md)| 2022.10.26 | 김민준 |  |
 | [인터넷 네트워크](HanSeokhyeon/network.md) | 2022.11.14 | 한석현 |  |
 | [Arrow Function](MinJunKim/Arrow_Function.md)| 2022.11.14 | 김민준 |  |
 | [HTTP와 HTTPS](HanSeokhyeon/http-and-https.md) | 2022.11.25 | 한석현 |
 | [Oauth + JWT](MinJunKim/Oauth+JWT.md)| 2022.11.29 | 김민준 |  |
+| [XSS](HanSeokhyeon/xss.md) | 2022.12.09 | 한석현 |  |
+
 
  
 ## 참고
