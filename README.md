@@ -83,6 +83,8 @@
 | [Oauth + JWT](MinJunKim/Oauth+JWT.md)| 2022.11.29 | 김민준 |  |
 | [XSS](HanSeokhyeon/xss.md) | 2022.12.09 | 한석현 |  |
 | [CORS](MinJunKim/cors.md) | 2022.12.09 | 김민준 |  |
+|  | 2022.12.16 | 한석현 |  |
+| Document Object Model | 2022.12.16 | 김민준 |  |
 
 
 
