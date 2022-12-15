@@ -44,7 +44,7 @@
   - [Arrow Function](MinJunKim/Arrow_Function.md)
 - FrontEnd
   - [브라우저의 동작원리](MinJunKim/How_Browsers_Work.md)
-  - Document Object Model
+  - [Document Object Model](MinJunKim/DOM.md)
   - [CORS](MinJunKim/cors.md)
   - [크로스 브라우징](MinJunKim/CrossBrowsing.md)   
   - 웹 성능과 관련된 Issues
@@ -84,7 +84,7 @@
 | [XSS](HanSeokhyeon/xss.md) | 2022.12.09 | 한석현 |  |
 | [CORS](MinJunKim/cors.md) | 2022.12.09 | 김민준 |  |
 |  | 2022.12.16 | 한석현 |  |
-| Document Object Model | 2022.12.16 | 김민준 |  |
+| [Document Object Model](MinJunKim/DOM.md) | 2022.12.16 | 김민준 |  |
 
 
 
