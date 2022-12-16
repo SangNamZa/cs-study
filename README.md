@@ -33,7 +33,7 @@
   - 메모리 관리 전략
   - 캐시의 지역성
 - 알고리즘
-  - 정렬
+  - [정렬](HanSeokhyeon/sort.md)
   - Prime Number
 - JavaScript
   - [Event Loop](MinJunKim/event-loop.md)
@@ -83,7 +83,7 @@
 | [Oauth + JWT](MinJunKim/Oauth+JWT.md)| 2022.11.29 | 김민준 |  |
 | [XSS](HanSeokhyeon/xss.md) | 2022.12.09 | 한석현 |  |
 | [CORS](MinJunKim/cors.md) | 2022.12.09 | 김민준 |  |
-|  | 2022.12.16 | 한석현 |  |
+| [정렬](HanSeokhyeon/sort.md) | 2022.12.16 | 한석현 |  |
 | [Document Object Model](MinJunKim/DOM.md) | 2022.12.16 | 김민준 |  |
 
 
