@@ -6,12 +6,19 @@
   
   그래서 DOM이란 넓게는 웹 브라우저가 HTML 페이지를 인식하는 방식 / 좁게는 document 객체들의 집합을 의미한다.
   
-   ### DOM은 tree 구조이다. 대표적으로 HTML 태그를 요소노드(Element Node), 요소 노드 안의 글자들을 텍스트노드(Text Node)라고 부른다.
+### DOM vs HTML
+- HTML : 화면에 보이고자 하는 모양과 구조를 문서로 만든 것으로 단순 텍스트로 구성(최초에 화면을 그릴때 사용하는 설계도)
+- DOM : HTML 문서의 내용과 구조가 객체 모델로 변화되어 다양한 프로그램에서 사용 가능(설계도를 이용하여 실제로 화면에 나타내지는 인터페이스)
+- DOM이 원본 HTML 소스와 다른 경우 : 작성된 HTML 문서가 유효하지 않아 코드를 맞게 교정하는 경우. JS가 동적으로 생성하는 경우
+  
+### DOM은 tree 구조이다. 대표적으로 HTML 태그를 요소노드(Element Node), 요소 노드 안의 글자들을 텍스트노드(Text Node)라고 부른다.
+   
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png'/>
   
   
-  ### JavaScript로 DOM 생성하기
-  - 정적으로 생성 : 웹 브라우저가 HTML 페이지에 적혀 있는 태그들을 읽으면 생성되는 것. 단순히 적힌 그대로 문서객체가 생성되는 것.
-  - 동적으로 생성 : 원래 HTML 페이지에 없던 dom을 js를 이용해서 생성하는 것. 
+### JavaScript로 DOM 생성하기
+- 정적으로 생성 : 웹 브라우저가 HTML 페이지에 적혀 있는 태그들을 읽으면 생성되는 것. 단순히 적힌 그대로 문서객체가 생성되는 것.
+- 동적으로 생성 : 원래 HTML 페이지에 없던 dom을 js를 이용해서 생성하는 것. 
   
 ```
   <!DOCTYPE html>
