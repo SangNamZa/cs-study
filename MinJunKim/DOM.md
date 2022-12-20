@@ -50,3 +50,13 @@
 </body>
 </html>
 ```
+
+### DOM API
+HTML의 요소들을 js에서 제어하기 위한 명령들
+- document.querySelector() : html문서에서 일치하는 요소 중 첫번째를 리턴
+- document.querySelectorAll() : 일치하는 선택자 모두 찾아 배열형태로 리턴
+- .addEventListner() : 선택한 요소에 이벤트 발생시 지정한 함수 실행
+- .classList.add() : 선택한 요소의 클래스에 내용 추가
+- .classList.remove() : 선택한 요소의 클래스에서 내용 삭제
+- .classList.contains() : 선택한 요소의 클래스에 포함 여부 확인
+- forEach() : 배열에서 사용하며, 배열의 아이템들에 반복적으로 함수를 실행
