@@ -50,7 +50,7 @@
   - [크로스 브라우징](MinJunKim/CrossBrowsing.md)   
   - 웹 성능과 관련된 Issues
   - [서버 사이드 렌더링 vs 클라이언트 사이드 렌더링](MinJunKim/ServerSideRendering_vs_ClientSideRendering.md)
-  - CSS Methodology
+  - [CSS Methodology](MinJunKim/CSS_Methodology.md)
   - Normalize.css vs reset.css
   - [CSS Frameworks](MinJunKim/css-framework.md)
   - [Design System](MinJunKim/design_system.md)
@@ -87,6 +87,8 @@
 | [정렬](HanSeokhyeon/sort.md) | 2022.12.16 | 한석현 |  |
 | [Document Object Model](MinJunKim/DOM.md) | 2022.12.16 | 김민준 |  |
 | [Web과 Was 차이](HanSeokhyeon/web-was.md) | 2023.01.09 | 한석현 |  |
+| [CSS Methodology](MinJunKim/CSS_Methodology.md) | 2022.01.09 | 김민준 |  |
+
 
 
  
