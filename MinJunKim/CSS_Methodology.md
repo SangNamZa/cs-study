@@ -23,23 +23,27 @@ ___
 ```
 - layout : id 와 class 구분 뒤 l- 이라는 접두사 사용(layout > l-)
 ```html
-.l-width #header {
+.l-fixed #header {
     width: 650px;
-    padding: 10px;
 }
 ```
 
-- module : 재사용 많은 구성 요소(.stick, .stick-name, .stick-number ...)
+- module : 스타일 재사용 많은 구성 요소(네비게이션바, 말풍선, 대화상자 등), .box>span 처럼 child 셀렉터 사용
 - state : 접두사 is-,s-를 사용(.is-error, .is-hidden ...)
+- theme : 사용자가 스타일을 재선언하며 사용, theme- 접두사 사용
 
 
 
 
-2. BEM (Block Element Modifier) : block__element--modifier
+### 2. BEM (Block Element Modifier) : block__element--modifier
 - 장점 : 클래스명을 통해 직관적으로 구조 파악이 쉬움
 - 단점 : 코드가 길어지고 복잡해짐, 기존 마크업에 기능 변경이 생기면 클래스명 재수정이 불편함
 
-3. OOCSS (Object Oriented CSS)
+- block : 목적(menu,btn)에 맞게 설정, 환경(여백이나 위치)에 영향 받지 않음, 중첩 작성 가능
+- element : block 안에서 특정 기능 수행(item, text, title)
+- modifiers : 모양 상태를 정의함(color, size, disabled...)
+
+### 3. OOCSS (Object Oriented CSS)
 - 장점 : 공통 부분이 정의되어서 재사용됨, 동일한 클래스면 동일한 스타일임
 - 단점 : 공통된 클래스가 많아 멀티클래스 사용, 유지보수 어려움, 가독성 떨어짐
 
