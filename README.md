@@ -11,7 +11,7 @@
   - [Git & GitHub](HanSeokhyeon/git-github.md)
   - [현대적인 웹 애플리케이션의 구조](HanSeokhyeon/web-application.md)
   - [Oauth + JWT](MinJunKim/Oauth+JWT.md)
-  - [Web과 Was 차이](HanSeokhyeon/web-wad.md)
+  - [Web과 Was 차이](HanSeokhyeon/web-was.md)
 - 자료구조
   - [Array vs Linked List](HanSeokhyeon/array-and-linked-list.md)
   - [Stack and Queue](HanSeokhyeon/stack-and-queue.md)
@@ -86,7 +86,7 @@
 | [CORS](MinJunKim/cors.md) | 2022.12.09 | 김민준 |  |
 | [정렬](HanSeokhyeon/sort.md) | 2022.12.16 | 한석현 |  |
 | [Document Object Model](MinJunKim/DOM.md) | 2022.12.16 | 김민준 |  |
-| [Web과 Was 차이](HanSeokhyeon/web-wad.md) | 2023.01.09 | 한석현 |  |
+| [Web과 Was 차이](HanSeokhyeon/web-was.md) | 2023.01.09 | 한석현 |  |
 
 
  
